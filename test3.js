@@ -1,0 +1,13 @@
+const   cart = [
+  { name: "Shirt",   price: 25,  quantity: 2 },
+  { name: "Jeans",   price: 60,  quantity: 1 },
+  { name: "Socks",   price: 8,   quantity: 3 }
+];
+
+
+function calctotal(cart){
+   let evertything = "0";
+   for (let i = 0; i < cart.length; i++) {
+        evertything = evertything + (cart[i].price * cart[i].quantity);
+    } 
+}
