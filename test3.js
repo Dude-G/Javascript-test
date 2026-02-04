@@ -23,3 +23,5 @@ function calctotal(cart){
     
     return total;
 }
+
+console.log(calctotal(cart));
