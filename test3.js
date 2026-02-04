@@ -14,7 +14,7 @@ function calctotal(cart){
    
    for (let i = 0; i < cart.length; i++) {
         total = total + (cart[i].price * cart[i].quantity);
-        // or shorter: total += cart[i].price * cart[i].quantity;
+        
     }
     
     if (total > 100) {
