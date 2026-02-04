@@ -13,14 +13,12 @@ function calctotal(cart){
    let total = 0;              
    
    for (let i = 0; i < cart.length; i++) {
-        total = total + (cart[i].price * cart[i].quantity);
-        
+        total = total + (cart[i].price * cart[i].quantity);   
     }
     
     if (total > 100) {
         total = total * 0.9;
     }
-    
     return total;
 }
 
