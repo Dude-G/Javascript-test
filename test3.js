@@ -10,7 +10,7 @@ const   cart = [
 
 
 function calctotal(cart){
-   let total = 0;               // ← number zero, not string "0"
+   let total = 0;              
    
    for (let i = 0; i < cart.length; i++) {
         total = total + (cart[i].price * cart[i].quantity);
